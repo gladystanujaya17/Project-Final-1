@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+.nav-item:hover {
+    opacity: 0.8;
+    background: pink;
+    color: black;
+}
+.navbar-brand {
+    color: palevioletred;
+}
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 91.5vh;
+    background: url('./image/bg-2.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.login-user {
+    width: 420px;
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(50px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    color: white;
+    border-radius: 10px;
+    padding: 30px 40px;
+}
+.login-user h1 {
+    font-weight: 600;
+}
+.login-user a {
+    color: pink;
+    font-weight: 600;
+}
+.button-form {
+    text-align: center;
+    color: palevioletred;
+}
